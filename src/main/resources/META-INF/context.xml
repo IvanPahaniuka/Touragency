@@ -1,0 +1,11 @@
+<Context>
+    <Resource name="jdbc/touragency"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="root"
+              password="root"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://192.168.99.100:3306/touragency"
+              maxActive="15"
+              maxIdle="3"/>
+</Context>
